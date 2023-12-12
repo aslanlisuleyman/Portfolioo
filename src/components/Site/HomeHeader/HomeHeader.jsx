@@ -8,10 +8,10 @@ const HomeHeader = () => {
         <div className='home__header__1'>
           <img className='home__header__1__img' src="https://htmldemo.net/pustok/pustok/image/logo.png" alt="" />
           <div className='home__header__1__div1'>
-            <i class="fa-solid fa-headphones" style={{color: "#1fc913"}}></i>
+            <i class="fas fa-headphones-alt" style={{color: "#1fc913",fontSize:'29px'}}></i>
             <div>
               <p>Free Support 24/7</p>
-              <p>+01-202-555-0181</p>
+              <p ><b>+01-202-555-0181</b></p>
             </div>
           </div>
           <div className='home__header__1__pages'>
@@ -31,13 +31,16 @@ const HomeHeader = () => {
               <input className='inp' type="text" placeholder='Search entire store here' />
               <button className='btn'>Search</button>
           </div>
-          <div className='abc'>
+          
+          <div className='home__header__2__shop'>
+         <div className='abc'>
             <p><b>Login</b></p>
             <p>or Register</p>
           </div>
-          <div className='home__header__2__shop'>
-            <i class="fa-solid fa-cart-shopping" style={{color: "#22e208"}}></i>
-            <div>
+
+            {/* <i class="fa-solid fa-cart-shopping aff" style={{color: "#22e208"}}></i> */}
+            <i class="fa-solid fa-bag-shopping"style={{color: "#22e208",fontSize:"37px"}} ></i>
+            <div className='dollar'>
                <p>Shopping Card</p>
                <p><i class="fa-solid fa-euro-sign" style={{color: "#4ad80e"}}></i>0.00</p>
             </div>
